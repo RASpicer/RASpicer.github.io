@@ -1,0 +1,69 @@
+---
+layout: single
+title:  "My Thesis: A Year of Wasted Writing"
+date:   2021-06-17 08:21:22 +0100
+share: true
+categories:
+  - Thesis
+tags:
+  - thesis
+---
+Writing my thesis was a waste of time. It was a waste of my examiners’ time, my supervisor’s time and a waste of my time. In the two years since it was published, my thesis has been cited 0 times. The whole process, from the start of writing, to completing corrections, took me over a year.
+
+I started writing my thesis in January 2018, submitted it the following July and had my viva a month later. Two weeks after this I moved cities and started a postdoc in a new, unrelated field. I then spend the next 4 months working on my postdoc full time and working on my thesis corrections in the evenings and weekends. There was no overlap in research between my PhD and my postdoc so it felt wrong to work on my PhD during work hours. I finally finished corrections in December 2018, just before the submission deadline.
+
+The majority of my thesis is based on work that had been published prior to the thesis being written: 2 journal articles, 1 opinion piece and 1 review. When I was writing my thesis I was advised that I should reword all research that had been previously published, as it had been written with collaborators and it is difficult to ensure that any one section was written exclusively by you. The guidelines now explicitly state that the thesis may include published work with linking introductory and concluding passages[^1], but at the time I was told differently. Anecdotally this has also happened to other PhD students, at other universities[^2].
+
+Unlike my thesis, my publications have been well cited (Figure 1). Even by the lowest estimate from Web of Science, in total the papers have collectively received 127 citations.
+
+{% capture fig_citation %}
+![Foo]({{ "/assets/images/citations.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_citation | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Figure 1. Citations of publications from 1st January 2018 - 18th February 2021, the time range covering from the beginning thesis writing to the present day. It must be noted that my thesis was only indexed on Google Scholar and was not indexed on Scopus or Web of Science. Papers are as follows: Paper 1 (<a href="#spicer2017a">Spicer et al. 2017a</a>), Commentary (<a href="#spicer2017b">Spicer et al. 2017b</a>), Paper 2 (<a href="#spicer2018">Spicer & Steinbeck, 2018</a>), Review (<a href="#spicer2017c">Spicer et al., 2017c</a>).</figcaption>
+</figure>
+
+Currently the University of Cambridge does not allow PhD students to undertake a PhD by publication, which is reserved for staff members who “published work comprises a significant contribution to scholarship”[^3]. It remains rare for papers to commonly be incorporated into theses ([Christianson, 2015](#christianson2015))[^4]. Yet the impact of theses is declining; overtime they are making up a smaller proportion of total citations ([Larivière et al., 2008](#larivière2008)). 80% of theses published 2013-2017 had no citations indexed in Google Scholar ([Kousha & Thelwall, 2019](#kousha2019)).
+
+Not every PhD has a natural overall ‘flow’, and the one-size fits all nature of the current model forces research to be bound together in narratives that do not make sense. For my PhD I originally wished to research how environmental exposures impact the metabolome. However, there wasn’t sufficient suitably annotated data. Instead, some of my research ended up being on why there wasn’t enough data, but another part is on the variety of software available for metabolomic data analysis. My PhD is entirely composed of disparate projects that I had to loosely stitch together in a monograph. The actual reason my PhD ended up being on this topic is that there wasn't sufficient data available for me to undertake research on the topic that was originally planned. But this isn’t a “good story”. I couldn’t use it as justification for how my various research projects fitted together. Instead, I had to cobble together a narrative after the fact.
+
+In the time I spent writing my thesis, I could have written up my final research study for publication. Now this will never happen - it’s been over three years since I completed the research and I have no desire to go back to it. I do not intend to stay in academia long term so publishing the research would not benefit me career wise. As it stands, because the research is available exclusively in my thesis (but the data and analysis are available on [GitHub](https://github.com/RASpicer/PLOSONE_Metabolomics_Data_Sharing)), it is unlikely anyone but my supervisor’s future PhD students will ever read it.  
+
+I suggest that PhD students have a choice between publishing their thesis as a monograph, or in the style of a series of papers, with introductions and conclusions. This would allow for flexibility to publish appropriately for each discipline. My suggested paper style thesis would not require the research to have been previously published. This would ensure that students would not be penalised for not having yet published their research, and would make it easier for them to publish their research in future. It would address the previously identified challenge of theses by publication - time constraints caused by the publication process ([Merga et al., 2020](#merga2020)).
+
+If a paper had already undergone peer review and been published the text would not need amending, unless an examiner noticed a serious flaw (in which case the original paper would also need to be corrected). Rather than having to convert a monograph chapter with more prose into an article, students could save time by writing up their research in a format that could be directly submitted as a preprint or to a journal ([Breimer & Mikhailidis, 1991](#breimer1991), [2020](#breimer2020)). This could indirectly lead to the research of PhD students having more impact.
+
+[^1]: [https://www.cambridgestudents.cam.ac.uk/grad-code-of-practice/requirements-research-degrees](https://www.cambridgestudents.cam.ac.uk/grad-code-of-practice/requirements-research-degrees )
+
+[^2]: “Pigott .. is struck by a story he heard about a PhD student who was censured for self-plagiarism after including one of his papers in a conventional thesis. *“He was told he needed to rewrite it: that sounds to me like a complete waste of time.”*” [https://www.timeshighereducation.com/features/phd-is-the-doctoral-thesis-obsolete/2020255.article](https://www.timeshighereducation.com/features/phd-is-the-doctoral-thesis-obsolete/2020255.article)
+
+[^3]: Doctor of Philosophy: Special Regulations - Section 3. “A person shall not be eligible to proceed to the Ph.D. Degree under these regulations if he or she has been approved for the Ph.D. Degree under the regulations for Research Students, or under the regulations for the Ph.D., M.Sc., and M.Litt. Degrees.” [https://www.admin.cam.ac.uk/univ/so/2016/chapter07-section12.html#heading2-51](https://www.admin.cam.ac.uk/univ/so/2016/chapter07-section12.html#heading2-51)
+
+
+[^4]: In a survey of universities, 45% said publications were rarely incorporated into theses and 38% responded that publications were never incorporated. [The Role of Publications and Other Artefacts in Submissions for the UK PhD](http://www.ukcge.ac.uk/article/the-role-of-publications-and-other-artefacts-in-submissions-for-the-uk-phd-201.aspx)
+
+
+## References
+
+<a name="breimer1991"></a> Breimer, L. H., & Mikhailidis, D. P. (1991). A thesis for all seasons. *Nature*, 353, 789–790. doi:[10.1038/353789a0](https://doi.org/10.1038/353789a0)
+
+<a name="breimer2020"></a>  Breimer, L. H., & Mikhailidis, D. P. (2020). Half a century and more of PhD theses by published papers: Comment on: “Bringing the doctoral thesis by published papers to the Social Sciences and the Humanities: A quantitative easing? A small study of doctoral thesis submission rules and practice in two disciplines in the UK” by John Rigby and Barbara Jones in Scientometrics published online 15-May-2020. *Scientometrics*, 125(1), 813–816. doi:[10.1007/s11192-020-03622-2](https://doi.org/10.1007/s11192-020-03622-2).
+
+<a name="christianson2015"></a> Christianson, B. (2015). The role of publications and other artefacts in submissions for the UK PhD.
+Kousha, K., & Thelwall, M. (2019). Can Google Scholar and Mendeley help to assess the scholarly impacts of dissertations? *Journal of Informetrics*, 13(2), 467–484. doi:[10.1016/j.joi.2019.02.009](https://doi.org/10.1016/j.joi.2019.02.009).
+
+<a name="kousha2019"></a>  Kousha, K., & Thelwall, M. (2019). Can Google Scholar and Mendeley help to assess the scholarly impacts of dissertations? *Journal of Informetrics*, 13(2), 467–484. doi:[10.1016/j.joi.2019.02.009](https://doi.org/10.1016/j.joi.2019.02.009)
+
+<a name="larivière2008"></a> Larivière, V., Zuccala, A., & Archambault, É. (2008). The declining scientific impact of theses: Implications for electronic thesis and dissertation repositories and graduate studies. *Scientometrics*, 74(1), 109–121. doi:[10.1007/s11192-008-0106-3](https://doi.org/10.1007/s11192-008-0106-3).
+
+<a name="merga2020"></a> Merga, M. K., Mason, S., & Morris, J. E. (2020). ‘What do I even call this?’ Challenges and possibilities of undertaking a thesis by publication. *Journal of Further and Higher Education*, 44(9), 1245–1261. doi:[10.1080/0309877X.2019.1671964](https://doi.org/10.1080/0309877X.2019.1671964).
+
+<a name="spicer2018"></a> Spicer, R. A., & Steinbeck, C. (2018). A lost opportunity for science: Journals promote data sharing in metabolomics but do not enforce it. *Metabolomics*, 14(1), 16. doi:[10.1007/s11306-017-1309-5](https://doi.org/10.1007/s11306-017-1309-5).
+
+<a name="spicer2017c"></a> Spicer, R., Salek, R. M., Moreno, P., Cañueto, D., & Steinbeck, C. (2017c). Navigating freely-available software tools for metabolomics analysis. *Metabolomics*, 13(9), 106. doi:[10.1007/s11306-017-1242-7](https://doi.org/10.1007/s11306-017-1242-7).
+
+<a name="spicer2017b"></a> Spicer, R., Salek, R., & Steinbeck, C. (2017b). A decade after the metabolomics standards initiative it’s time for a revision. *Scientific Data*, 4(1), 170138. doi:[10.1038/sdata.2017.138](https://doi.org/10.1038/sdata.2017.138).
+
+<a name="spicer2017a"></a> Spicer, R., Salek, R., & Steinbeck, C. (2017a). Compliance with minimum information guidelines in public metabolomics repositories. *Scientific Data*, 4(1), 170137. doi:[10.1038/sdata.2017.137](https://doi.org/10.1038/sdata.2017.137).

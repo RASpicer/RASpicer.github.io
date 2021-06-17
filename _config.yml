@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Rachel Spicer's Blog
+email: rachelaspicer@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  A blog where I discuess current challenges in academic research.
+twitter:
+  username: "RachelASpicer"
 minimal_mistakes_skin: default
 search: true
+date_format: "%d-%B, %Y"
 
 # Build settings
 markdown: kramdown
@@ -58,34 +57,26 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Rachel Spicer"
+  avatar: "/assets/images/avatar_photo.png"
+  bio: "Data Science postdoc at LSE & Chief Data Scientist for the Database of Religious History (DRH)."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/RachelASpicer"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/RASpicer"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rachel-spicer-40241554/"
 
-footer:
+# Social links
+social:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - "https://twitter.com/RachelASpicer"
+    - "https://www.linkedin.com/in/rachel-spicer-40241554/"
+    - "https://scholar.google.com/citations?hl=en&user=e-g4mfYAAAAJ"
 
 defaults:
   # _posts
@@ -95,7 +86,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
       comments: true
       share: true
       related: true
