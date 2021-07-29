@@ -7,9 +7,9 @@ title: "Publications"
 ## Preprints
 Uchiyama, R., **Spicer, R.** & Muthukrishna, M. (2021). Cultural Evolution of Genetic Heritability. *Behavioral and Brain Sciences*, 1-147. doi:[10.1017/S0140525X21000893](https://doi.org/10.1017/S0140525X21000893).
 
-Beheim, B., Atkinson, Q., Bulbulia, J., Gervais, W., Gray, R. D., Henrich, J., Lang, M., Monroe, M. W., Muthukrishna, M., Norenzayan, A., Purzycki, B. G., Shariff, A., Slingerland, E., **Spicer, R.**, & Willard, A. K. (Forthcoming) Treatment of missing data determines conclusions regarding moralizing gods. *Nature*. doi:[10.31234/osf.io/jwa2n](https://doi.org/10.31234/osf.io/jwa2n).
-
 ## Journal Articles
+Beheim, B., Atkinson, Q., Bulbulia, J., Gervais, W., Gray, R. D., Henrich, J., Lang, M., Monroe, M. W., Muthukrishna, M., Norenzayan, A., Purzycki, B. G., Shariff, A., Slingerland, E., **Spicer, R.**, & Willard, A. K. (2021) Treatment of missing data determines conclusions regarding moralizing gods. *Nature*. 595, E29–E34. doi: [10.1038/s41586-021-03655-4](https://doi.org/10.1038/s41586-021-03655-4) preprint:[10.31234/osf.io/jwa2n](https://doi.org/10.31234/osf.io/jwa2n).
+
 Slingerland, E., Monroe, M. W., Sullivan, B., Walsh, R. F., Veidlinger, D., Noseworthy, W., Herriott, C., Raffield, B., Peterson, J. L., Rodríguez, G., Sonik, K., Green, W., Tappenden, F. S., Ashtari, A., **Spicer, R.**, & Muthukrishna, M. (2020). Historians Respond to Whitehouse et al. 2019, Complex societies precede moralizing gods throughout world history. *Journal of Cognitive Historiography*, 5(1-2), 124–141. url:[https://journal.equinoxpub.com/JCH/article/view/18509](https://journal.equinoxpub.com/JCH/article/view/18509). [(Prepint)](https://doi.org/10.31234/osf.io/2amjz).
 
 **Spicer, R. A.** & Steinbeck, C. (2018) A lost opportunity for science: journals promote data sharing in metabolomics but do not enforce it. *Metabolomics*, 14, p. 16. doi:[10.1007/s11306-017-1309-5](https://doi.org/10.1007/s11306-017-1309-5)
